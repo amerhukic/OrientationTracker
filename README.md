@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/amerhukic/OrientationTracker/master/Logo.png" width="420" max-width="80%" alt="Logo" />
+<img src="https://raw.githubusercontent.com/amerhukic/OrientationTracker/master/Logo.png" width="570" max-width="80%" alt="Logo" />
 </p>
 
 <p align="center">
