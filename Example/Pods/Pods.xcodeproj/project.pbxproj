@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		100DDF6D704A4F97CB0EAB3F72922242 /* Pods-OrientationTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A17DD516EC272947E36D310C067E2FCB /* Pods-OrientationTracker_Example-dummy.m */; };
-		19FA4481221474B5003294B1 /* OrientationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FA4480221474B5003294B1 /* OrientationTracker.swift */; };
-		39FFD85197BCD1FDD84C43EE5CAB288B /* OrientationTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32A65CA93EFC14D3E9EDEEAC5239A18 /* OrientationTracker-dummy.m */; };
+		5C713AE825FC790F859AC4C465324F30 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D031318CF009008DAB5748DC6D542 /* CoreMotion.framework */; };
+		6814BB89867B7E24727828FEF9F55B24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2D133F9DCE6D56236BA4C743D6A644 /* Foundation.framework */; };
 		6A7F27268AA1D14A36ADA7CF8D7CC1B9 /* Pods-OrientationTracker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C8E9921E264036CEE86B89B2F9FADA /* Pods-OrientationTracker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73B3521AE2A91A5625789754E1EB77DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		862B1FF2350E7E36E8F4E543793EA37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8F3D4138F3BC47D46C37FB044AF5714E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		862B1FF2350E7E36E8F4E543793EA37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2D133F9DCE6D56236BA4C743D6A644 /* Foundation.framework */; };
+		8F0A315FFF4BF12BED12EB5DBDD07C8C /* OrientationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADFEED323599CA8F032FA417A7C0D6 /* OrientationTracker.swift */; };
+		8F3D4138F3BC47D46C37FB044AF5714E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2D133F9DCE6D56236BA4C743D6A644 /* Foundation.framework */; };
 		B894E35C3E3BF1C7836742ED4AAFB61F /* Pods-OrientationTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB06CC74F92FE07B825D16B3ABAADC0 /* Pods-OrientationTracker_Tests-dummy.m */; };
 		C4BB9AB8FD25FC264BC2D594AA04B312 /* Pods-OrientationTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D65714310D519297F7A59D279A2964 /* Pods-OrientationTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1775B9B1335ECCE9C34E7F74ADBF3EB /* OrientationTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1B866536A158A0C2D8C083DFFC8000 /* OrientationTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9ACE238266FDEB637FBC5BCDF6893D4 /* OrientationTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C717332B5D600CF8BB02E6ED8AE25 /* OrientationTracker-dummy.m */; };
+		EDE995EF31FA6212E34BA7DFC9CF8898 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49ABF1E3610E1C63E51F2B61F6800D8F /* UIKit.framework */; };
+		EDFD8C80BEA8C7BDCADE230DF6CA9034 /* OrientationTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F46FCCF0038812B967A80A643937356A /* OrientationTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 145E50632A63CA03F0837C80FE5E6EEE;
+			remoteGlobalIDString = A4EC3DA3A6F26F9B63C581EBEF1B8365;
 			remoteInfo = OrientationTracker;
 		};
 		ECFD4DFC727B455EEECAD69E23304923 /* PBXContainerItemProxy */ = {
@@ -37,49 +39,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A95AE77FB0456DEA7D396F8C709995 /* OrientationTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrientationTracker.xcconfig; sourceTree = "<group>"; };
 		040112078673EF20CD64696DA510B72E /* Pods-OrientationTracker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrientationTracker_Example-resources.sh"; sourceTree = "<group>"; };
 		04DEC8C0E6D21E8D0B670A4AF95C42E7 /* Pods-OrientationTracker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrientationTracker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0D632AF1157A8111B4A034C2526B5B6A /* Pods_OrientationTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrientationTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A5BA1AAE4F6406B844E568D0C7BCAB /* Pods-OrientationTracker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrientationTracker_Tests-resources.sh"; sourceTree = "<group>"; };
-		19FA4480221474B5003294B1 /* OrientationTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationTracker.swift; sourceTree = "<group>"; };
-		1AE8B37D7013350B8B5F3F343721973B /* OrientationTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrientationTracker-prefix.pch"; sourceTree = "<group>"; };
+		1EADFEED323599CA8F032FA417A7C0D6 /* OrientationTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrientationTracker.swift; path = OrientationTracker/Classes/OrientationTracker.swift; sourceTree = "<group>"; };
+		244D3599E8C46A2442CCD9271A8C474F /* OrientationTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OrientationTracker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		27A0C8DB726046C1817D012CA874A715 /* Pods-OrientationTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrientationTracker_Example.modulemap"; sourceTree = "<group>"; };
+		2B2D031318CF009008DAB5748DC6D542 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		30368E6B73A54272196677D3C543BFCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34CE385A3FB0AB815638A42097B02607 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DD47DE8660B88D5AC3070B4E9F923A2 /* Pods-OrientationTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrientationTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		49411E9F7730255727DF33CFB0F3093A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49ABF1E3610E1C63E51F2B61F6800D8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E40214E11DA845CA495EFB25EF4D0A2 /* OrientationTracker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrientationTracker-prefix.pch"; sourceTree = "<group>"; };
 		52D65714310D519297F7A59D279A2964 /* Pods-OrientationTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrientationTracker_Example-umbrella.h"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A1B866536A158A0C2D8C083DFFC8000 /* OrientationTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrientationTracker-umbrella.h"; sourceTree = "<group>"; };
-		7D54943FA47F4D010A71FFCE05053259 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		55041ADBD4A9D176C7A123752C99B891 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		82CED9D42A6ECC62472C39EDC388243F /* Pods-OrientationTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrientationTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8AFA06D07F059AA137E8EB845877FD09 /* Pods-OrientationTracker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrientationTracker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AB6C65A0322511D4FCE6DEB850968F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2D133F9DCE6D56236BA4C743D6A644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A17DD516EC272947E36D310C067E2FCB /* Pods-OrientationTracker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrientationTracker_Example-dummy.m"; sourceTree = "<group>"; };
 		A7F6ED70E14C814530F220A68A91C5E6 /* OrientationTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrientationTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF16CAE093FE1770AA2196EBCE027F66 /* OrientationTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrientationTracker.xcconfig; sourceTree = "<group>"; };
 		B327D8A2BDA58597C10D5674B947D0FD /* Pods_OrientationTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrientationTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB63EB188C72247CA7C82090B34F213 /* Pods-OrientationTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrientationTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BCF8059AA959D3D81483E38A4F62E623 /* Pods-OrientationTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrientationTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BE36F152710A6652DE35548D7B0F480B /* Pods-OrientationTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OrientationTracker_Tests.modulemap"; sourceTree = "<group>"; };
 		C036DDF0002605391BCB6826557E7B34 /* Pods-OrientationTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OrientationTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB47B58ED7DBB8413AF335E15760AB1E /* OrientationTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrientationTracker.modulemap; sourceTree = "<group>"; };
 		D21ABFCC73C1FFCF135876238BDDF2EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C8E9921E264036CEE86B89B2F9FADA /* Pods-OrientationTracker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OrientationTracker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E1317E67677942B3AE31AB21AD7651C0 /* OrientationTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OrientationTracker.podspec; sourceTree = "<group>"; };
 		E2765184B142C79D313B5849AA417C5D /* Pods-OrientationTracker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OrientationTracker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E32A65CA93EFC14D3E9EDEEAC5239A18 /* OrientationTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrientationTracker-dummy.m"; sourceTree = "<group>"; };
+		E52C717332B5D600CF8BB02E6ED8AE25 /* OrientationTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrientationTracker-dummy.m"; sourceTree = "<group>"; };
 		EA5471053B3A0883FAED03497E959271 /* Pods-OrientationTracker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OrientationTracker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EDB06CC74F92FE07B825D16B3ABAADC0 /* Pods-OrientationTracker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OrientationTracker_Tests-dummy.m"; sourceTree = "<group>"; };
-		EDE53706DFB9A9EDBAAFCD7A55C3F1B2 /* OrientationTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrientationTracker.modulemap; sourceTree = "<group>"; };
+		F46FCCF0038812B967A80A643937356A /* OrientationTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrientationTracker-umbrella.h"; sourceTree = "<group>"; };
+		F7CADCCB10B1A3D87A3555F4EDDDE55D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FAC3AE3C793BD4C0C46064AA655A357E /* Pods-OrientationTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OrientationTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C3C5AB3E83EF01FFA4FD6651F47CDC0 /* Frameworks */ = {
+		143627176D0146B0E6C2A75294222CF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B3521AE2A91A5625789754E1EB77DA /* Foundation.framework in Frameworks */,
+				5C713AE825FC790F859AC4C465324F30 /* CoreMotion.framework in Frameworks */,
+				6814BB89867B7E24727828FEF9F55B24 /* Foundation.framework in Frameworks */,
+				EDE995EF31FA6212E34BA7DFC9CF8898 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +118,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				258DF2598ED35799EEF7DC720827E370 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F6EC9DACA7B36B8E2B6272527DAA792 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30368E6B73A54272196677D3C543BFCB /* Info.plist */,
+				CB47B58ED7DBB8413AF335E15760AB1E /* OrientationTracker.modulemap */,
+				00A95AE77FB0456DEA7D396F8C709995 /* OrientationTracker.xcconfig */,
+				E52C717332B5D600CF8BB02E6ED8AE25 /* OrientationTracker-dummy.m */,
+				4E40214E11DA845CA495EFB25EF4D0A2 /* OrientationTracker-prefix.pch */,
+				F46FCCF0038812B967A80A643937356A /* OrientationTracker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OrientationTracker";
+			sourceTree = "<group>";
+		};
 		24E5B1D3099991C03A94E348B3D9C502 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +147,16 @@
 				62A1D35A8432313A60948C89898EFC2C /* Pods-OrientationTracker_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		258DF2598ED35799EEF7DC720827E370 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D031318CF009008DAB5748DC6D542 /* CoreMotion.framework */,
+				9B2D133F9DCE6D56236BA4C743D6A644 /* Foundation.framework */,
+				49ABF1E3610E1C63E51F2B61F6800D8F /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		30D70DC4E96A8402B790D5B3B365089A /* Pods-OrientationTracker_Example */ = {
@@ -137,27 +175,6 @@
 			);
 			name = "Pods-OrientationTracker_Example";
 			path = "Target Support Files/Pods-OrientationTracker_Example";
-			sourceTree = "<group>";
-		};
-		513FCAD395CE945F470FD919A06B3EBE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7D54943FA47F4D010A71FFCE05053259 /* LICENSE */,
-				E1317E67677942B3AE31AB21AD7651C0 /* OrientationTracker.podspec */,
-				49411E9F7730255727DF33CFB0F3093A /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5A34B8ACE8982AC878206EBC783307A5 /* OrientationTracker */ = {
-			isa = PBXGroup;
-			children = (
-				19FA4480221474B5003294B1 /* OrientationTracker.swift */,
-				513FCAD395CE945F470FD919A06B3EBE /* Pod */,
-				9C361C031F000E6135F83F8782513D03 /* Support Files */,
-			);
-			name = OrientationTracker;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		62A1D35A8432313A60948C89898EFC2C /* Pods-OrientationTracker_Tests */ = {
@@ -183,48 +200,39 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D10A71BD15212E30ED28AF46110F06CB /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				116552AC874DFBDD3A9929250C06673C /* Products */,
 				24E5B1D3099991C03A94E348B3D9C502 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9C361C031F000E6135F83F8782513D03 /* Support Files */ = {
+		B3FA0DA63DA100859AC16606E246A03D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9AB6C65A0322511D4FCE6DEB850968F5 /* Info.plist */,
-				EDE53706DFB9A9EDBAAFCD7A55C3F1B2 /* OrientationTracker.modulemap */,
-				AF16CAE093FE1770AA2196EBCE027F66 /* OrientationTracker.xcconfig */,
-				E32A65CA93EFC14D3E9EDEEAC5239A18 /* OrientationTracker-dummy.m */,
-				1AE8B37D7013350B8B5F3F343721973B /* OrientationTracker-prefix.pch */,
-				7A1B866536A158A0C2D8C083DFFC8000 /* OrientationTracker-umbrella.h */,
+				F7CADCCB10B1A3D87A3555F4EDDDE55D /* LICENSE */,
+				244D3599E8C46A2442CCD9271A8C474F /* OrientationTracker.podspec */,
+				55041ADBD4A9D176C7A123752C99B891 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OrientationTracker";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C669979AB71181986A17925EC95D330B /* OrientationTracker */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				1EADFEED323599CA8F032FA417A7C0D6 /* OrientationTracker.swift */,
+				B3FA0DA63DA100859AC16606E246A03D /* Pod */,
+				1F6EC9DACA7B36B8E2B6272527DAA792 /* Support Files */,
 			);
-			name = Frameworks;
+			name = OrientationTracker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D10A71BD15212E30ED28AF46110F06CB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5A34B8ACE8982AC878206EBC783307A5 /* OrientationTracker */,
+				C669979AB71181986A17925EC95D330B /* OrientationTracker */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,11 +254,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC1F3B3DE0BBA2077768EE95B1A2F1D3 /* Headers */ = {
+		EDC397F783CB9D4376238B238652C457 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1775B9B1335ECCE9C34E7F74ADBF3EB /* OrientationTracker-umbrella.h in Headers */,
+				EDFD8C80BEA8C7BDCADE230DF6CA9034 /* OrientationTracker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,23 +283,6 @@
 			productReference = 0D632AF1157A8111B4A034C2526B5B6A /* Pods_OrientationTracker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		145E50632A63CA03F0837C80FE5E6EEE /* OrientationTracker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 36B955D8BAB2B14A4E1F934117C62D17 /* Build configuration list for PBXNativeTarget "OrientationTracker" */;
-			buildPhases = (
-				F48964306FA043D30483458B7B9C3373 /* Sources */,
-				0C3C5AB3E83EF01FFA4FD6651F47CDC0 /* Frameworks */,
-				FC1F3B3DE0BBA2077768EE95B1A2F1D3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OrientationTracker;
-			productName = OrientationTracker;
-			productReference = A7F6ED70E14C814530F220A68A91C5E6 /* OrientationTracker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4CE329B1DEFFD7BCB68A8A501BA12C28 /* Pods-OrientationTracker_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A913D54F86D10E7ACD8C60304CBC2154 /* Build configuration list for PBXNativeTarget "Pods-OrientationTracker_Tests" */;
@@ -310,6 +301,23 @@
 			productReference = B327D8A2BDA58597C10D5674B947D0FD /* Pods_OrientationTracker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A4EC3DA3A6F26F9B63C581EBEF1B8365 /* OrientationTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716F2CCFFF63EB6ECE8E345E293F6B81 /* Build configuration list for PBXNativeTarget "OrientationTracker" */;
+			buildPhases = (
+				B03FDF9D1080F117253DF126C58ADCCA /* Sources */,
+				143627176D0146B0E6C2A75294222CF0 /* Frameworks */,
+				EDC397F783CB9D4376238B238652C457 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrientationTracker;
+			productName = OrientationTracker;
+			productReference = A7F6ED70E14C814530F220A68A91C5E6 /* OrientationTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -317,12 +325,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					145E50632A63CA03F0837C80FE5E6EEE = {
-						LastSwiftMigration = 1010;
-					};
-				};
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -336,7 +339,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				145E50632A63CA03F0837C80FE5E6EEE /* OrientationTracker */,
+				A4EC3DA3A6F26F9B63C581EBEF1B8365 /* OrientationTracker */,
 				0CF7E7A0CA71591018C111D3FB0A6F38 /* Pods-OrientationTracker_Example */,
 				4CE329B1DEFFD7BCB68A8A501BA12C28 /* Pods-OrientationTracker_Tests */,
 			);
@@ -352,20 +355,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B03FDF9D1080F117253DF126C58ADCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9ACE238266FDEB637FBC5BCDF6893D4 /* OrientationTracker-dummy.m in Sources */,
+				8F0A315FFF4BF12BED12EB5DBDD07C8C /* OrientationTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC42B0DF72DA8EFE7296362CF0DA4956 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				100DDF6D704A4F97CB0EAB3F72922242 /* Pods-OrientationTracker_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F48964306FA043D30483458B7B9C3373 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39FFD85197BCD1FDD84C43EE5CAB288B /* OrientationTracker-dummy.m in Sources */,
-				19FA4481221474B5003294B1 /* OrientationTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +378,7 @@
 		5577C9B7356C3629864D983440F4ED81 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OrientationTracker;
-			target = 145E50632A63CA03F0837C80FE5E6EEE /* OrientationTracker */;
+			target = A4EC3DA3A6F26F9B63C581EBEF1B8365 /* OrientationTracker */;
 			targetProxy = B0BDF6AE76BA64598F1D683EB34E39FD /* PBXContainerItemProxy */;
 		};
 		80E0B99842C0B47C9CB108F01C525450 /* PBXTargetDependency */ = {
@@ -387,6 +390,39 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		253889B7B083DF0D9E020A0401130825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A95AE77FB0456DEA7D396F8C709995 /* OrientationTracker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrientationTracker/OrientationTracker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrientationTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OrientationTracker/OrientationTracker.modulemap";
+				PRODUCT_MODULE_NAME = OrientationTracker;
+				PRODUCT_NAME = OrientationTracker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		31DDC3842C2D600C57D41C1742D79382 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82CED9D42A6ECC62472C39EDC388243F /* Pods-OrientationTracker_Tests.debug.xcconfig */;
@@ -489,11 +525,10 @@
 			};
 			name = Release;
 		};
-		67C966DA088FD5675A9C5DCE19B0C427 /* Release */ = {
+		8580A18979684218D5017B38E4A56C4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF16CAE093FE1770AA2196EBCE027F66 /* OrientationTracker.xcconfig */;
+			baseConfigurationReference = 00A95AE77FB0456DEA7D396F8C709995 /* OrientationTracker.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -514,14 +549,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -640,42 +674,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		F14B1D4919F2F8D3AFFCE6280F7EE354 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF16CAE093FE1770AA2196EBCE027F66 /* OrientationTracker.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OrientationTracker/OrientationTracker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OrientationTracker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OrientationTracker/OrientationTracker.modulemap";
-				PRODUCT_MODULE_NAME = OrientationTracker;
-				PRODUCT_NAME = OrientationTracker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		F1760BD3C18437CBDB3639BF3707E848 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -724,11 +726,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36B955D8BAB2B14A4E1F934117C62D17 /* Build configuration list for PBXNativeTarget "OrientationTracker" */ = {
+		716F2CCFFF63EB6ECE8E345E293F6B81 /* Build configuration list for PBXNativeTarget "OrientationTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F14B1D4919F2F8D3AFFCE6280F7EE354 /* Debug */,
-				67C966DA088FD5675A9C5DCE19B0C427 /* Release */,
+				8580A18979684218D5017B38E4A56C4D /* Debug */,
+				253889B7B083DF0D9E020A0401130825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

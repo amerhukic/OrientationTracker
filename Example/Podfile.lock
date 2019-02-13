@@ -1,5 +1,5 @@
 PODS:
-  - OrientationTracker (0.1.0)
+  - OrientationTracker (1.0.0)
 
 DEPENDENCIES:
   - OrientationTracker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OrientationTracker: 962b0427ece973b3ee0ffe0091b909f503d80a6b
+  OrientationTracker: 2ae74f5f4f125fa4a4a784913ac44e1b2e93732b
 
 PODFILE CHECKSUM: 00576af6233d459d6a51a3cdad01d161c7ddd3a8
 

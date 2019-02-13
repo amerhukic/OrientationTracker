@@ -2,23 +2,27 @@
 //  ViewController.swift
 //  OrientationTracker
 //
-//  Created by hukicamer@gmail.com on 02/13/2019.
-//  Copyright (c) 2019 hukicamer@gmail.com. All rights reserved.
-//
 
 import UIKit
+import OrientationTracker
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var centerView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(rotateView), name: OrientationTracker.deviceOrientationChangedNotification, object: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func rotateView() {
+        DispatchQueue.main.async {
+            UIView.animate(withDuration: 1) {
+                self.centerView.transform = OrientationTracker.shared.affineTransform
+            }
+        }
     }
-
+    
 }
 

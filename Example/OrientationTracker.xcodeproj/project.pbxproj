@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1ADF5C8593B6C7162B86DCFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1ADF5C8593B6C7162B86DCFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1EF9EA9FFE9FE2F05B3B6285 /* Pods-OrientationTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrientationTracker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrientationTracker_Example/Pods-OrientationTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2B4A20B2DFF2D02EB79A21CE /* Pods-OrientationTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrientationTracker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrientationTracker_Example/Pods-OrientationTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OrientationTracker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrientationTracker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +43,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		91A8AFE28D70877995C9DC02 /* Pods_OrientationTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrientationTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10D7A43BA5C3EC3B1523C4A /* Pods-OrientationTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrientationTracker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrientationTracker_Tests/Pods-OrientationTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CF4DFBD1630EBBC3D3ACF1F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D26ECA4868C2C6BE5DA04CF4 /* OrientationTracker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OrientationTracker.podspec; path = ../OrientationTracker.podspec; sourceTree = "<group>"; };
+		CF4DFBD1630EBBC3D3ACF1F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D26ECA4868C2C6BE5DA04CF4 /* OrientationTracker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OrientationTracker.podspec; path = ../OrientationTracker.podspec; sourceTree = "<group>"; };
 		F634745CB84962AD617430EC /* Pods_OrientationTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrientationTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D41A5EAAFCEE0B0578918F /* Pods-OrientationTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrientationTracker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrientationTracker_Tests/Pods-OrientationTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -469,6 +469,7 @@
 			baseConfigurationReference = 1EF9EA9FFE9FE2F05B3B6285 /* Pods-OrientationTracker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OrientationTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +485,7 @@
 			baseConfigurationReference = 2B4A20B2DFF2D02EB79A21CE /* Pods-OrientationTracker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OrientationTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C10D7A43BA5C3EC3B1523C4A /* Pods-OrientationTracker_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8D41A5EAAFCEE0B0578918F /* Pods-OrientationTracker_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

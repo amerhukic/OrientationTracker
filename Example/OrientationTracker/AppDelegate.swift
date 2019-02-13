@@ -2,11 +2,9 @@
 //  AppDelegate.swift
 //  OrientationTracker
 //
-//  Created by hukicamer@gmail.com on 02/13/2019.
-//  Copyright (c) 2019 hukicamer@gmail.com. All rights reserved.
-//
 
 import UIKit
+import OrientationTracker
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        OrientationTracker.shared.startDeviceOrientationTracking()
         return true
     }
 
