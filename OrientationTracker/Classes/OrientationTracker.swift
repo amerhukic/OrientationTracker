@@ -9,7 +9,9 @@ import CoreMotion
 public class OrientationTracker {
     
     public static let shared = OrientationTracker()
+    
     public static let deviceOrientationChangedNotification = NSNotification.Name("DeviceOrientationChangedNotification")
+    
     public var currentDeviceOrientation: UIDeviceOrientation = .portrait
     
     public var affineTransform: CGAffineTransform {
