@@ -2,8 +2,6 @@
 //  OrientationTracker.swift
 //  OrientationTracker
 //
-//  Created by Amer Hukic on 13/02/2019.
-//
 
 import UIKit
 import CoreMotion
@@ -40,7 +38,7 @@ public class OrientationTracker {
         self.queue = OperationQueue()
     }
     
-    public func startDeviceOrientationDetection() {
+    public func startDeviceOrientationTracking() {
         
         motionManager.startAccelerometerUpdates(to: queue) { accelerometerData, error in
             guard error == nil else { return }
@@ -58,7 +56,7 @@ public class OrientationTracker {
         }
     }
     
-    public func stopDeviceOrientationDetection() {
+    public func stopDeviceOrientationTracking() {
         motionManager.stopAccelerometerUpdates()
     }
     
