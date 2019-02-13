@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint OrientationTracker.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'OrientationTracker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of OrientationTracker.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.0.0'
+  s.summary          = 'Track orientation changes even when the device is orientation-locked'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  OrientationTracker is a library for tracking device orientation changes even for devices with orientation-lock turned on. You can subscribe to orientation change notifications and react accordingly. Using the affineTransform property you can rotate the views to follow the orientation change.
                        DESC
 
-  s.homepage         = 'https://github.com/hukicamer@gmail.com/OrientationTracker'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/amerhukic/OrientationTracker'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'hukicamer@gmail.com' => 'hukicamer@gmail.com' }
-  s.source           = { :git => 'https://github.com/hukicamer@gmail.com/OrientationTracker.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Amer Hukić' => 'hukicamer@gmail.com' }
+  s.source           = { :git => 'https://github.com/amerhukic/OrientationTracker.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/hukicamer'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'OrientationTracker/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'OrientationTracker' => ['OrientationTracker/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'CoreMotion'
+  s.swift_version = '4.2'
 end
