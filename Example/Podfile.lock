@@ -1,0 +1,16 @@
+PODS:
+  - OrientationTracker (0.1.0)
+
+DEPENDENCIES:
+  - OrientationTracker (from `../`)
+
+EXTERNAL SOURCES:
+  OrientationTracker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OrientationTracker: 962b0427ece973b3ee0ffe0091b909f503d80a6b
+
+PODFILE CHECKSUM: 00576af6233d459d6a51a3cdad01d161c7ddd3a8
+
+COCOAPODS: 1.5.3

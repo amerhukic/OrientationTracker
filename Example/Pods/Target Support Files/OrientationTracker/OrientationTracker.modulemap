@@ -1,0 +1,6 @@
+framework module OrientationTracker {
+  umbrella header "OrientationTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
