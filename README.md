@@ -30,10 +30,12 @@ To start device orientation tracking use `OrientationTracker` you simply invoke 
 DeviceOrientationDetector.shared.startDeviceOrientationTracking()
 ```
 
-You then have add an observer for the `OrientationTracker.deviceOrientationChangedNotification` and react to orientation changes:
+You then add an observer for the `OrientationTracker.deviceOrientationChangedNotification` and react to orientation changes:
 ```swift
 NotificationCenter.default.addObserver(self, selector: #selector(updateViews), name: DeviceOrientationDetector.deviceOrientationChangedNotification, object: nil)
 ```
+
+You can access the current orientation using the `currentDeviceOrientation` property.
 
 To stop receiving notifications use the `stopDeviceOrientationTracking` method:
 ```swift
