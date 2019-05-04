@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OrientationTracker'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Track orientation changes even when the device is orientation-locked'
 
   s.description      = <<-DESC
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'OrientationTracker/Classes/**/*'
   s.frameworks = 'UIKit', 'CoreMotion'
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 end
