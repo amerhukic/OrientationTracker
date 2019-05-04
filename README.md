@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Swift-4.2-orange.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.0-orange.svg" />
     <a href="https://cocoapods.org/pods/OrientationTracker">
         <img src="https://img.shields.io/cocoapods/v/OrientationTracker.svg?style=flat" alt="Pod Version">
     </a>
@@ -20,8 +20,8 @@
 ## Requirements
 
 - iOS 8.0+
-- Xcode 10.0+
-- Swift 4.2+
+- Xcode 10.2
+- Swift 5.0
 
 ## Usage
 
